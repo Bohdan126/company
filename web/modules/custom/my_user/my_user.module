@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function my_user_theme($existing, $type, $theme, $path) {
+  return [
+    'my_user_custom_pane' => [
+      'variables' => [
+        'title' => NULL,
+        'body' => NULL,
+      ],
+    ],
+  ];
+}
+
+function my_user_preprocess_my_user_custom_pane(&$vars) {
+  $vars['title'] = 'test';
+}

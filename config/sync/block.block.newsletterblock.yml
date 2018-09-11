@@ -1,0 +1,26 @@
+uuid: d69778c9-55c2-4f87-886e-57afa02425f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_newsletter
+    - system
+  theme:
+    - bartik
+id: newsletterblock
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: my_newsletter_block
+settings:
+  id: my_newsletter_block
+  label: 'Subscribe to Newsletter'
+  provider: my_newsletter
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

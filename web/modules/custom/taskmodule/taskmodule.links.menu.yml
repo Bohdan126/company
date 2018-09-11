@@ -1,0 +1,6 @@
+taskmodule.mypage:
+  title: 'My Page'
+  description: 'My own page'
+  route_name: taskmodule.mypage
+  parent: system.admin
+  weight: 100

@@ -1,0 +1,5 @@
+user_update_password.admin:
+  title: 'Update Password'
+  route_name: my_user.update_password
+  base_route: entity.user.canonical
+  weight: 100

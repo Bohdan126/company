@@ -1,0 +1,7 @@
+taskmodule.mypage:
+  path: /mypage
+  defaults:
+    _title: "My custom form in page"
+    _controller: '\Drupal\taskmodule\Controller\MyPageController::customPage'
+  requirements:
+    _permission: 'access content'

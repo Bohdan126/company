@@ -1,0 +1,7 @@
+my_newsletter.newsletter_settings:
+  path: '/admin/config/newsletter'
+  defaults:
+    _title: "List Configs"
+    _form: 'Drupal\my_newsletter\Form\MyNewsletterSettings'
+  requirements:
+    _permission: 'access administration pages'

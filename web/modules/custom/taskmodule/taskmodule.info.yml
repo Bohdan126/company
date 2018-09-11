@@ -1,0 +1,5 @@
+name: 'Task Module'
+type: module
+description: 'This is task module from courses drupalcompany'
+package: Custom
+core: 8.x

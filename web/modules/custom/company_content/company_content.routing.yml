@@ -1,0 +1,7 @@
+company_content.content_page:
+  path: '/admin/company/content'
+  defaults:
+    _title: 'Company Content'
+    _controller: 'Drupal\company_content\Controller\CompanyContentController::content'
+  requirements:
+    _permission: 'administer site configuration'

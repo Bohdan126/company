@@ -1,0 +1,8 @@
+my_user.update_password:
+  path: '/user/{user}/update-password'
+  defaults:
+    _title: 'Update Password'
+    _controller: '\Drupal\my_user\Controller\UpdatePasswordPage::userPass'
+  requirements:
+    _entity_access: 'user.view'
+

@@ -1,0 +1,9 @@
+mailchimp.admin:
+  title: 'Settings'
+  route_name: mailchimp.admin
+  base_route: mailchimp.admin
+
+my_newsletter.newsletter_settings:
+  title: 'List'
+  route_name: my_newsletter.newsletter_settings
+  base_route: mailchimp.admin
